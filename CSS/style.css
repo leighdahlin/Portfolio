@@ -113,11 +113,11 @@ h3 {
   position: relative;
 } */
 
-#about-me {
+#card1 {
   transform: translate(130%);
 }
 
-#about-me img {
+#about-me-pic {
   width: 30%;
   border: none;
   border-radius: 50%;
@@ -127,7 +127,15 @@ h3 {
 .card {
   /* background-color: var(--off-white); */
   /* border: 8px solid var(--teal); */
-  color: var(--dark-blue)
+  background-color: var(--dark-blue);
+  color:var(--off-white) ;
+  text-shadow: none;
+  padding: 1.5rem;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 1.5rem;
 }
 
 .card a {
@@ -141,6 +149,3 @@ h3 {
   color: teal;
 }
 
-/* .content-card p {
-  color: var(--midnight-blue)
-} */
