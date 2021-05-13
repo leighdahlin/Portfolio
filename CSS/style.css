@@ -9,26 +9,8 @@
   --midnight-blue: #0f3057;
 }
 
-/*
- * Globals
- */
-
-
-/* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-}
-
-
-/*
- * Base structure
- */
-
 #background {
-    background-image: url(/Images/wood-grain.jpg);
+    background-image: url(../Images/wood-grain.jpg);
     background-size: cover; /* this makes the background image stretch to fit the entire space, or else it would repeat itself */
 }
 
@@ -40,11 +22,6 @@ body {
 .cover-container {
   max-width: 42em;
 }
-
-
-/*
- * Header
- */
 
 .nav-masthead .nav-link {
   padding: .25rem 0;
