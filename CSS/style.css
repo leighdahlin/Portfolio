@@ -149,3 +149,98 @@ h3 {
   color: teal;
 }
 
+/* Styling from old portfolio file */
+
+
+/* this makes the work section a flex box */
+#work {
+  display: inline-flex;
+  justify-content: space-between;
+  
+}
+
+/* this sets the properties for the pictures in the work section when hovered over */
+.project-pictures img:hover {
+  box-shadow: 0px 0px 50px 0px var(--midnight-blue);
+  transform: scale(1.01);
+  opacity: 3;
+}
+
+/* set to relative so that the text containers can be moved around on the pictures */
+#big-picture-container {
+  position: relative;
+}
+
+/* sets the properties for the big picture */
+#big-picture {
+  margin: 1%;
+  height: 85%;
+  width: 100%;
+}
+
+#work-section h3 {
+  font-size: 1.25rem;
+}
+
+/*properties for the project details text*/
+.text-container1 p, .text-container2 p, .text-container3 p {
+  color: var(--off-white);
+  font-size: 1.1rem;
+}
+
+/* sets the properties for the big picture's text box */
+.text-container1 {
+  position: absolute;
+  top: 50%;
+  left: 1%; 
+  background: var(--teal);
+  padding-left: 5%;
+  padding-right: 2%;
+  color: var(--midnight-blue);
+  text-align: right;
+}
+
+/* the four pictures below the big picture are in a flex box */
+.other-pictures-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+/* this sets the properties for the pictures below the big picture */
+.other-pictures {
+  height: 100%;
+  width: 49%;
+}
+
+/*by making the position of the pictures relative and the text box absolute, I can put the text where I want it on the picture*/
+.other-pictures-text-container{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 45%;
+}
+
+/*text box for project pictures on the right*/
+.text-container2 {
+  position: absolute; 
+  top: 11%;
+  left: 0%;
+  background: var(--teal);
+  padding-left: 8%;
+  padding-right: 2%;
+  color: var(--midnight-blue);
+  text-align: right;
+}
+
+/*text box for project pictures on the left*/
+.text-container3 {
+  position: absolute;
+  top: 11%;
+  right: 0%;
+  background: var(--teal);
+  padding-right: 8%;
+  padding-left: 2%;
+  color: var(--midnight-blue);
+  text-align: left;
+}
