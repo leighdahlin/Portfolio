@@ -193,6 +193,7 @@ p {
   box-shadow: 0px 0px 50px 0px var(--midnight-blue);
   transform: scale(1.01);
   opacity: 3;
+  cursor: pointer;
 }
 
 /* set to relative so that the text containers can be moved around on the pictures */
@@ -248,6 +249,7 @@ p {
   margin-bottom: 1rem;
   margin-left:  1.25%;
 }
+
 
 /*by making the position of the pictures relative and the text box absolute, I can put the text where I want it on the picture*/
 .other-pictures-text-container{
