@@ -92,6 +92,10 @@ h3 {
   font-size: 2.5rem;
 }
 
+p {
+  margin-bottom: 0.25rem;
+}
+
 .lead {
   font-size: 3.5rem;
   color: var(--off-white);
@@ -200,6 +204,7 @@ h3 {
 /* sets the properties for the big picture */
 #big-picture {
   margin: 1%;
+  margin-top: 4%;
   height: 85%;
   width: 100%;
 }
@@ -209,18 +214,23 @@ h3 {
 }
 
 /*properties for the project details text*/
-.text-container1 p, .text-container2 p, .text-container3 p {
+.text-container1 p{
   color: var(--off-white);
-  font-size: 1.1rem;
+  font-size: 1rem;
+}
+
+.text-container2 p, .text-container3 p {
+  color: var(--off-white);
+  font-size: .85rem;
 }
 
 /* sets the properties for the big picture's text box */
 .text-container1 {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 2.4%; 
   background: var(--dark-blue);
-  padding-left: 5%;
+  padding-left: 4%;
   padding-right: 2%;
   text-align: right;
 }
@@ -253,19 +263,21 @@ h3 {
   top: 11%;
   left: 2.5%;
   background: var(--dark-blue);
-  padding-left: 25px;
-  padding-right: 10px;
+  padding: 8px;
+  padding-left: 15px;
+  padding-bottom: 0px;
   text-align: right;
 }
 
 /*text box for project pictures on the left*/
 .text-container3 {
   position: absolute;
-  top: 11%;
+  top: 55%;
   right: 1%;
   background: var(--dark-blue);
-  padding-right: 25px;
-  padding-left: 10px;
+  padding: 8px;
+  padding-right: 15px;
+  padding-bottom: 0px;
   text-align: left;
 }
 
