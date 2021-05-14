@@ -40,39 +40,17 @@ viewPortfolio.addEventListener("click", function(){
 })
 
 workEl.addEventListener("click", function(){
-    aboutMeCard.setAttribute("style","transition-property: transform; transition-duration: 600ms; transform: translate(-150%)");
+    aboutMeCard.setAttribute("style","transition-property: transform; transition-duration: 600ms; transform: translate(-120%)");
+    
     setTimeout(function(){
         aboutMeCard.setAttribute("class","no-display")
-        workSectionEl.setAttribute("class","visible")
+        workSectionEl.setAttribute("class","work visible")
+        setTimeout(function(){
+            workSectionEl.setAttribute("style","transition-property: opacity; transition-duration: 250ms; opacity:10;")
+        },50)
+        
 
-    },300)
-
-
-    // var projImg1 = document.createElement("img");
-    // projImg1.setAttribute("src","Images/white-plaster (3).jpg")
-    // projImg1.setAttribute("class","card-img-top");
-    // aboutMeCard.appendChild(projImg1);
-
-    // var cardBodyDiv1 = document.createElement("div");
-    // cardBodyDiv1.setAttribute("class","card-body");
-
-    // var cardHeading1 = document.createElement("h5");
-    // cardHeading1.setAttribute("class","card-title");
-    // cardHeading1.textContent= "The Hopperator";
-    // cardBodyDiv1.appendChild(cardHeading1);
-
-    // var cardSubcontent1 = document.createElement("p");
-    // cardSubcontent1.setAttribute("class","card-text");
-    // cardSubcontent1.textContent = "HTML, CSS, Javascript and Google Maps API";
-    // cardBodyDiv1.appendChild(cardSubcontent1);
-
-    // aboutMeCard.appendChild(cardBodyDiv1);
-
-    
-
-
-
-
+    },200)
 
 
     

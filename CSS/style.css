@@ -22,7 +22,7 @@ body {
 }
 
 .cover-container {
-  max-width: 42em;
+  max-width: 47em;
 }
 
 
@@ -150,13 +150,38 @@ h3 {
 }
 
 /* Styling from old portfolio file */
+/* the about me paragraph and images next to work are both wrapped in div with display set to flex */
 
+/* .sub-header {
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--dark-blue);
+  padding: 3%;
+  border-right: 5px solid var(--dark-blue);
+  text-align: right;
+} */
+
+.project-pictures{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3%;
+}
+
+#work-section {
+  opacity: 0;
+}
 
 /* this makes the work section a flex box */
-#work {
+.work {
   display: inline-flex;
   justify-content: space-between;
   
+}
+
+.project-pictures img {
+  border: solid 10px #008891;
 }
 
 /* this sets the properties for the pictures in the work section when hovered over */
@@ -169,6 +194,7 @@ h3 {
 /* set to relative so that the text containers can be moved around on the pictures */
 #big-picture-container {
   position: relative;
+  width: 100%;
 }
 
 /* sets the properties for the big picture */
@@ -209,8 +235,9 @@ h3 {
 
 /* this sets the properties for the pictures below the big picture */
 .other-pictures {
-  height: 100%;
   width: 49%;
+  margin-bottom: 1rem;
+  margin-left:  1.25%;
 }
 
 /*by making the position of the pictures relative and the text box absolute, I can put the text where I want it on the picture*/
@@ -225,7 +252,7 @@ h3 {
 .text-container2 {
   position: absolute; 
   top: 11%;
-  left: 0%;
+  left: 1.1%;
   background: var(--teal);
   padding-left: 8%;
   padding-right: 2%;
@@ -237,7 +264,7 @@ h3 {
 .text-container3 {
   position: absolute;
   top: 11%;
-  right: 0%;
+  right: -.3%;
   background: var(--teal);
   padding-right: 8%;
   padding-left: 2%;
