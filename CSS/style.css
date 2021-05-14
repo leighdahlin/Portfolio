@@ -22,7 +22,7 @@ body {
 }
 
 .cover-container {
-  max-width: 47em;
+  max-width: 48em;
 }
 
 
@@ -181,7 +181,7 @@ h3 {
 }
 
 .project-pictures img {
-  border: solid 10px #008891;
+  border: solid 10px var(--teal);
 }
 
 /* this sets the properties for the pictures in the work section when hovered over */
@@ -218,11 +218,10 @@ h3 {
 .text-container1 {
   position: absolute;
   top: 50%;
-  left: 1%; 
-  background: var(--teal);
+  left: 2.4%; 
+  background: var(--dark-blue);
   padding-left: 5%;
   padding-right: 2%;
-  color: var(--midnight-blue);
   text-align: right;
 }
 
@@ -252,11 +251,10 @@ h3 {
 .text-container2 {
   position: absolute; 
   top: 11%;
-  left: 1.1%;
-  background: var(--teal);
-  padding-left: 8%;
-  padding-right: 2%;
-  color: var(--midnight-blue);
+  left: 2.5%;
+  background: var(--dark-blue);
+  padding-left: 25px;
+  padding-right: 10px;
   text-align: right;
 }
 
@@ -264,10 +262,20 @@ h3 {
 .text-container3 {
   position: absolute;
   top: 11%;
-  right: -.3%;
-  background: var(--teal);
-  padding-right: 8%;
-  padding-left: 2%;
-  color: var(--midnight-blue);
+  right: 1%;
+  background: var(--dark-blue);
+  padding-right: 25px;
+  padding-left: 10px;
   text-align: left;
+}
+
+.screenshot-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.screenshot {
+  display: block;
+  width: 100%;
 }

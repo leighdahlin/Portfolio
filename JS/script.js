@@ -19,12 +19,13 @@ portfolioEl.addEventListener("click", function(){
 
 viewPortfolio.addEventListener("click", function(){
     introEl.setAttribute("style","transition-property: opacity; transition-duration: 600ms; opacity:0;")
+    aboutMeCard.setAttribute("class","card");
     setTimeout(function(){
         introEl.setAttribute("class","no-display");
     navEl.setAttribute("class","mb-auto visible");
 
     aboutMeCard.setAttribute("style", "width: 100%; transition-property: transform; transition-duration: 600ms; transform: translate(0%)");
-    aboutMeCard.setAttribute("class","card");
+    // aboutMeCard.setAttribute("class","card");
     cardTitle.textContent = "Leigh Dahlin"
     var imgEl = document.createElement("img");
     imgEl.setAttribute("src","./Images/profile-pic (2).jpg");
@@ -40,7 +41,7 @@ viewPortfolio.addEventListener("click", function(){
 })
 
 workEl.addEventListener("click", function(){
-    aboutMeCard.setAttribute("style","transition-property: transform; transition-duration: 600ms; transform: translate(-120%)");
+    aboutMeCard.setAttribute("style","transition-property: transform; transition-duration: 700ms; transform: translate(-120%)");
     
     setTimeout(function(){
         aboutMeCard.setAttribute("class","no-display")
