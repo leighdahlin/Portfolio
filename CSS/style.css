@@ -22,7 +22,7 @@ body {
 }
 
 .cover-container {
-  max-width: 48em;
+  max-width: 48rem;
 }
 
 
@@ -68,6 +68,10 @@ body {
 #background {
     background-image: url(../Images/wood-grain.jpg);
     background-size: cover; /* this makes the background image stretch to fit the entire space, or else it would repeat itself */
+}
+
+.portfolio:hover {
+  cursor:pointer;
 }
 
 .hidden {
