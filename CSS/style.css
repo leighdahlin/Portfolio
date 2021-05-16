@@ -255,7 +255,7 @@ p {
 }
 
 
-/*by making the position of the pictures relative and the text box absolute, I can put the text where I want it on the picture*/
+/* by making the position of the pictures relative and the text box absolute, I can put the text where I want it on the picture */
 .other-pictures-text-container{
   position: relative;
   display: flex;
