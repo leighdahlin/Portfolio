@@ -13,7 +13,7 @@ var resumeEl = document.querySelector("#resume");
 var workSectionEl = document.querySelector("#work-section");
 
 portfolioEl.addEventListener("click", function(){
-    window.location = "../index.html"
+    window.location.href = "./index.html"
 });
 
 

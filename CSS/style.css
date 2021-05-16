@@ -224,7 +224,7 @@ p {
   font-size: 1rem;
 }
 
-.text-container2 p, .text-container3 p {
+.text-container2 p, .text-container3 p, .text-container4 p, .text-container5 p {
   color: var(--off-white);
   font-size: .85rem;
 }
@@ -250,7 +250,7 @@ p {
 /* this sets the properties for the pictures below the big picture */
 .other-pictures {
   width: 49%;
-  margin-bottom: 1rem;
+  margin-bottom: .25rem;
   margin-left:  1.25%;
 }
 
@@ -287,13 +287,70 @@ p {
   text-align: left;
 }
 
+.text-container4 {
+  position: absolute;
+  top: 11%;
+  right: 1%;
+  background: var(--dark-blue);
+  padding: 8px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  text-align: left;
+}
+
+.text-container5 {
+  position: absolute; 
+  top: 55%;
+  left: 2.5%;
+  background: var(--dark-blue);
+  padding: 8px;
+  padding-left: 15px;
+  padding-bottom: 0px;
+  text-align: right;
+}
+
+/* Modal styles */
+
+.modal-content {
+  background-color: var(--off-white);
+}
+
+.modal-title {
+  color: var(--dark-blue);
+  font-size: 2rem;
+}
+
+.project-info {
+  height: 20%;
+  padding: 3%;
+  margin-top: 3%;
+  font-size: 1.25rem;
+  text-align: justify;
+}
+
+.links a{
+  background-color: var(--teal);
+  color: var(--off-white);
+  border-radius: 15px;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 3%;
+  margin: 2%;
+  cursor: pointer;
+  font-size: 1.15rem;
+}
+
+
 .screenshot-div {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
 .screenshot {
   display: block;
-  width: 100%;
+  width: 90%;
+  margin-top: 2%;
 }
+
