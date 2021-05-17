@@ -205,6 +205,10 @@ p {
   cursor: pointer;
 }
 
+.text-container1:hover, .text-container2:hover, .text-container3:hover, .text-container4:hover, .text-container5:hover {
+  cursor: pointer;
+}
+
 /* set to relative so that the text containers can be moved around on the pictures */
 #big-picture-container {
   position: relative;
@@ -429,16 +433,13 @@ p {
 
 @media screen and (max-width: 576px) {
 
-  .into-margin {
-    margin-bottom: 50%!important; 
-  }
-
   h1 {
     font-size: 3rem;
   }
 
   .lead {
-    font-size: 2rem;
+    font-size: 1.65rem;
+    margin-bottom: 1rem;
   }
 
   .card {
