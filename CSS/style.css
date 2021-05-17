@@ -86,6 +86,11 @@ body {
   display: none;
 }
 
+/* overriding Bootstrap stying */
+.mb-auto {
+  margin-bottom: 40%!important; 
+}
+
 h1 {
   font-size: 4.5rem;
   color: var(--off-white);
@@ -424,12 +429,20 @@ p {
 
 @media screen and (max-width: 576px) {
 
+  .mb-auto {
+    margin-bottom: 50%!important; 
+  }
+
   h1 {
     font-size: 3rem;
   }
 
   .lead {
     font-size: 2rem;
+  }
+
+  .card {
+    margin: 3%;
   }
 
   .card-body {
