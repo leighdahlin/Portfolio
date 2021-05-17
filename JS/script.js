@@ -5,14 +5,8 @@ var cardContentEl = document.querySelector(".content-card")
 var viewPortfolio = document.querySelector("#view");
 var aboutMeCard = document.querySelector("#card1");
 var contactCard = document.querySelector("#card2");
-var cardBody = document.querySelector(".card-body");
-var cardImage = document.querySelector(".card-img");
-var cardTitle = document.querySelector(".card-title");
-var cardTitle2 = document.querySelector(".card-title2");
-var contactEl = document.querySelector(".contact-info");
 var workEl = document.querySelector("#work");
 var contactEl = document.querySelector("#contact");
-var resumeEl = document.querySelector("#resume");
 var workSectionEl = document.querySelector("#work-section");
 
 portfolioEl.addEventListener("click", function(){

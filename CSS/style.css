@@ -87,7 +87,7 @@ body {
 }
 
 /* overriding Bootstrap stying */
-.mb-auto {
+.into-margin {
   margin-bottom: 40%!important; 
 }
 
@@ -429,7 +429,7 @@ p {
 
 @media screen and (max-width: 576px) {
 
-  .mb-auto {
+  .into-margin {
     margin-bottom: 50%!important; 
   }
 
@@ -500,6 +500,12 @@ p {
   #work-section h3{
       font-size: 0.8rem;
       margin-bottom: 0.2rem;
+  }
+
+  .links a{
+    padding: 2%;
+    margin: 1%;
+    font-size: 1rem;
   }
 
   .contact-info {
