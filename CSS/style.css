@@ -179,6 +179,71 @@ p {
   color: var(--dark-blue);
 }
 
+#card3 {
+  background-color: var(--off-white);
+}
+
+#skills-title {
+  color: var(--dark-blue);
+  border-bottom: 5px solid var(--dark-blue);
+  margin-bottom: 5%;
+}
+
+.skills-info {
+  /* height: 25rem; */
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.row-1 {
+  width: 50%;
+  height: 60%;
+}
+
+.row-2 {
+  width: 80%;
+  height: 50%;
+}
+
+.row-3 {
+  width: 60%;
+  height: 60%;
+  /* margin-top: 2%; */
+}
+
+.row-4 {
+  width: 90%;
+  height: 70%;
+  margin-top: 2%;
+}
+
+.row-5 {
+  width: 70%;
+  height: 50%;
+  margin-top: 2%;
+}
+
+#express {
+  width: 80%;
+  height: 40%;
+}
+
+#seq {
+  height: 100%;
+  width: 70%;
+}
+
+#mongo {
+  height: 100%;
+  width: 100%;
+}
+
+#heroku {
+  height: 100%;
+  width: 100%;
+}
+
+
 /* .card a:hover {
   color: teal;
 } */

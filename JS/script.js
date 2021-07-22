@@ -6,7 +6,9 @@ var cardContentEl = document.querySelector(".content-card")
 var viewPortfolio = document.querySelector("#view");
 var aboutMeCard = document.querySelector("#card1");
 var contactCard = document.querySelector("#card2");
+var skillsCard = document.querySelector("#card3");
 var workEl = document.querySelector("#work");
+var skillsEl = document.querySelector("#skills");
 var contactEl = document.querySelector("#contact");
 var workSectionEl = document.querySelector("#work-section");
 
@@ -34,9 +36,11 @@ viewPortfolio.addEventListener("click", function(){
 
 workEl.addEventListener("click", function(){
     aboutMeCard.setAttribute("style","transition-property: opacity; transition-duration: 600ms; opacity:0;");
+    skillsCard.setAttribute("style","transition-property: opacity; transition-duration: 600ms; opacity:0;");
     contactCard.setAttribute("style","transition-property: opacity; transition-duration: 600ms; opacity:0;");
     setTimeout(function(){
         aboutMeCard.setAttribute("class","no-display");
+        skillsCard.setAttribute("class","no-display");
         contactCard.setAttribute("class","no-display");
         workSectionEl.setAttribute("class","work visible");
         setTimeout(function(){
@@ -46,11 +50,29 @@ workEl.addEventListener("click", function(){
     
 });
 
+skillsEl.addEventListener("click", function(){
+    aboutMeCard.setAttribute("style","transition-property: opacity; transition-duration: 600ms; opacity:0;");
+    skillsCard.setAttribute("style","transition-property: opacity; transition-duration: 600ms; opacity:0;");
+    contactCard.setAttribute("style","transition-property: opacity; transition-duration: 600ms; opacity:0;");
+    setTimeout(function(){
+        workSectionEl.setAttribute("class", "no-display")
+        aboutMeCard.setAttribute("class","no-display");
+        contactCard.setAttribute("class","no-display");
+        skillsCard.setAttribute("class","card");
+        setTimeout(function(){
+            skillsCard.setAttribute("style","transition-property: opacity; transition-duration: 600ms; opacity:10;")
+        }, 50)
+    },650)
+    
+});
+
 contactEl.addEventListener("click", function(){
     workSectionEl.setAttribute("style","transition-property: opacity; transition-duration: 600ms; opacity:0;")
+    skillsCard.setAttribute("style","transition-property: opacity; transition-duration: 600ms; opacity:0;");
     aboutMeCard.setAttribute("style","transition-property: opacity; transition-duration: 600ms; opacity:0;");
     setTimeout(function(){
         workSectionEl.setAttribute("class", "no-display")
+        skillsCard.setAttribute("class","no-display");
         aboutMeCard.setAttribute("class","no-display");
         contactCard.setAttribute("class","card");
         setTimeout(function(){
