@@ -32,7 +32,7 @@ I added the following elements to my page to make it more dynamic:
 
 ## Link to Deploy
 
-[Portfolio: Leigh Dahlin](https://leighdahlin.github.io/Portfolio/)
+[Portfolio: Leigh Dahlin](https://leighdahlin.github.io/Portfolio/)Portfolio featuring my web development projects
 
 ## Screenshot
 
