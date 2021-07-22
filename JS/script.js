@@ -1,4 +1,5 @@
 const portfolioEl = document.querySelector(".portfolio")
+const coverCont = document.querySelector("#cover-container")
 var navEl = document.querySelector("#nav");
 var introEl = document.querySelector("#intro");
 var cardContentEl = document.querySelector(".content-card")
@@ -18,6 +19,7 @@ viewPortfolio.addEventListener("click", function(){
     introEl.setAttribute("style","transition-property: opacity; transition-duration: 600ms; opacity:0;")
     
     setTimeout(function(){
+        coverCont.setAttribute("class","cover-container d-flex w-100 h-100 p-3 mx-auto flex-column")
         introEl.setAttribute("class","no-display");
         aboutMeCard.setAttribute("class","card");
         navEl.setAttribute("class","mb-auto visible");

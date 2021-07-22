@@ -23,6 +23,9 @@ body {
 
 .cover-container {
   max-width: 48rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
 }
 
 
@@ -68,15 +71,27 @@ body {
 #background {
     background-image: url(../Images/wood-grain.jpg);
     background-size: cover; /* this makes the background image stretch to fit the entire space, or else it would repeat itself */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .portfolio:hover {
   cursor:pointer;
 }
 
-.hidden {
-  visibility: hidden;
+#nav {
+  justify-self: flex-start;
 }
+
+#header-div {
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+/* .hidden {
+  visibility: hidden;
+} */
 
 .visible {
   visibility: visible;
@@ -126,6 +141,12 @@ p {
   position: relative;
 } */
 
+#intro-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #card1 {
   opacity: 0;
 }
@@ -158,9 +179,9 @@ p {
   color: var(--dark-blue);
 }
 
-.card a:hover {
+/* .card a:hover {
   color: teal;
-}
+} */
 
 /* Styling from old portfolio file */
 /* the about me paragraph and images next to work are both wrapped in div with display set to flex */
@@ -241,7 +262,7 @@ p {
 /* sets the properties for the big picture's text box */
 .text-container1 {
   position: absolute;
-  top: 60%;
+  top: 20%;
   left: 2.4%; 
   background: var(--dark-blue);
   padding-left: 4%;
@@ -398,10 +419,11 @@ p {
 
 @media screen and (max-width: 992px) {
 
-  h2 {
+
+  /* h3 {
       width: 120px;
       font-size: 1.5rem;
-  }
+  } */
 
   .paragraph p, .text-container1 p, .text-container2 p, .text-container3 p, p {
       font-size: 1rem;
@@ -416,10 +438,10 @@ p {
 @media screen and (max-width: 768px) {
 
 
-  h2 {
+  /* h3 {
       width: 95px;
       font-size: 1.3rem;
-  }
+  } */
 
   .paragraph p, .text-container1 p, .text-container2 p, .text-container3 p {
       font-size: .75rem;
@@ -454,7 +476,7 @@ p {
     width: 50%;
   }
 
-  h2 {
+  h3 {
       width: 75px;
       font-size: 1.25rem;
   }
