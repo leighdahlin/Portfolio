@@ -288,10 +288,14 @@ p {
   box-shadow: 0px 0px 50px 0px var(--midnight-blue);
   transform: scale(1.01);
   opacity: 3;
-  cursor: pointer;
 }
 
-.text-container1:hover, .text-container2:hover, .text-container3:hover, .text-container4:hover, .text-container5:hover {
+.other-pictures-container img:hover {
+    cursor: pointer;
+
+}
+
+.text-container1:hover, .text-container2:hover, .text-container3:hover, .text-container4:hover, .text-container5:hover, .text-container6:hover {
   cursor: pointer;
 }
 
@@ -314,7 +318,7 @@ p {
 }
 
 /*properties for the project details text*/
-.text-container1 p{
+.text-container1 p, .text-container6 p {
   color: var(--off-white);
   font-size: 1rem;
 }
@@ -332,7 +336,7 @@ p {
   background: var(--dark-blue);
   padding-left: 4%;
   padding-right: 2%;
-  text-align: right;
+  text-align: left;
 }
 
 /* the four pictures below the big picture are in a flex box */
@@ -403,6 +407,17 @@ p {
   padding-bottom: 0px;
   text-align: right;
 }
+
+.text-container6 {
+  position: absolute;
+  top: 40%;
+  left: 2.4%; 
+  background: var(--dark-blue);
+  padding-left: 4%;
+  padding-right: 2%;
+  text-align: left;
+}
+
 
 #card2 {
   opacity: 0;
@@ -490,7 +505,7 @@ p {
       font-size: 1.5rem;
   } */
 
-  .paragraph p, .text-container1 p, .text-container2 p, .text-container3 p, p {
+  .paragraph p, .text-container1 p, .text-container2 p, .text-container3 p, .text-container6 p, p {
       font-size: 1rem;
   }
 
@@ -508,7 +523,7 @@ p {
       font-size: 1.3rem;
   } */
 
-  .paragraph p, .text-container1 p, .text-container2 p, .text-container3 p {
+  .paragraph p, .text-container1 p, .text-container2 p, .text-container3 p, .text-container6 p, {
       font-size: .75rem;
   }
 
@@ -571,6 +586,11 @@ p {
       left: 4%;
   }
 
+  .text-container6 {
+    top: 20%;
+    right: 4%;
+} 
+
   .text-container2, .text-container5 {
       top: 10%;
       left: 4%;
@@ -581,7 +601,7 @@ p {
     right: 4%;
   }
 
-  .paragraph p, .text-container1 p, .text-container2 p, .text-container3 p, .text-container4 p, .text-container5 p, .contact-info a {
+  .paragraph p, .text-container1 p, .text-container2 p, .text-container3 p, .text-container4 p, .text-container5 p, .text-container6 p,  .contact-info a {
       font-size: 0.7rem;
   }
 

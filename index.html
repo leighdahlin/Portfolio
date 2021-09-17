@@ -19,7 +19,7 @@
         <a id="work" class="nav-link" href="#">Work</a>
         <a id="skills" class="nav-link" href="#">Skills</a>
         <a id="contact" class="nav-link" href="#">Contact</a>
-        <a id="resume" class="nav-link" href="./Resume/Leigh Dahlin Resume.docx" target="blank">Resume</a>
+        <a id="resume" class="nav-link" href="Resume\Leigh Dahlin Resume 08232021.pdf" target="blank">Resume</a>
       </nav>
     </div>
   </header>
@@ -128,14 +128,19 @@
     <section id= "work-section" class="no-display">
             <div class="project-pictures">
                 <div id="big-picture-container">
-                    <a href="#" data-toggle="modal" data-target="#project-modal3">
+                    <!-- <a href="#" data-toggle="modal" data-target="#project-modal3"> -->
                         <img id = "big-picture" src="./Images/different-vegetables-textile-bag-grey.jpg" alt="project-1">
-                    </a>
-                        <div class="text-container1" data-toggle="modal" data-target="#project-modal">
-                            <h3>Bountiful</h3>
+                    <!-- </a> -->
+                        <div class="text-container6" data-toggle="modal" data-target="#project-modal">
+                            <h3>Bountiful - V1</h3>
                             <p>HTML, CSS, Bootstrap, Node.js</p>
                             <p>Heroku, Postgres, Express, Handlebars</p>
                         </div>
+                        <div class="text-container1" data-toggle="modal" data-target="#project-boutiful-2">
+                          <h3>Bountiful - V2</h3>
+                          <p>HTML, CSS, Bootstrap, Node.js</p>
+                          <p>React, Express, MongoDB, GraphQL, JWT</p>
+                      </div>
                 </div>
 
                 <div class="other-pictures-container">
@@ -180,7 +185,7 @@ aria-labelledby="project-modal-form" aria-hidden="true">
 <div class="modal-dialog modal-dialog-scrollable modal-xl modal-dialog-centered">
   <div class="modal-content">
     <div class="modal-header">
-      <h5 class="modal-title" id="project-modal-form">Bountiful</h5>
+      <h5 class="modal-title" id="project-modal-form">Bountiful Version 1</h5>
       <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
       </button>
     </div>
@@ -195,8 +200,35 @@ aria-labelledby="project-modal-form" aria-hidden="true">
             <img class = "screenshot" src="./Images/bountiful-browse.png">
             <img class = "screenshot" src="./Images/bountiful-itemview.png">
             <img class = "screenshot" src="./Images/bountiful-cart.png">
-
         </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="modal fade custom-modal" id="project-boutiful-2" tabindex="-1" role="dialog"
+aria-labelledby="project-modal-form" aria-hidden="true">
+<div class="modal-dialog modal-dialog-scrollable modal-xl modal-dialog-centered">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="project-modal-form">Bountiful Version 2</h5>
+      <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close">
+      </button>
+    </div>
+    <div class="modal-body">
+      <div class="links">
+        <a href="https://bountiful-us.herokuapp.com/" target="blank">Deployed Link</a>
+        <a href="https://github.com/leighdahlin/bountiful_v3" target="blank">Github Repository</a>
+      </div>
+        <p class="project-info">Bountiful is a peer-to-peer gardening service that allows users to buy and sell home grown produce in their local area.</p>
+
+        <div class="screenshot-div">
+          <img class = "screenshot" src="./Images/homepage.png">
+          <img class = "screenshot" src="./Images/dashboard-listings.png">
+          <img class = "screenshot" src="./Images/dashboard-profile.png">
+          <img class = "screenshot" src="./Images/seller-profile-reviewform.png">
+      </div>
+
     </div>
   </div>
 </div>
