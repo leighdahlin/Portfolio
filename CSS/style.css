@@ -323,6 +323,14 @@ p {
   font-size: 1rem;
 }
 
+.text-container1, .text-container6 {
+  width: 50%;
+}
+
+.text-container2, .text-container3, .text-container4, .text-container5 {
+  width: 35%;
+}
+
 .text-container2 p, .text-container3 p, .text-container4 p, .text-container5 p {
   color: var(--off-white);
   font-size: .85rem;
@@ -331,7 +339,7 @@ p {
 /* sets the properties for the big picture's text box */
 .text-container1 {
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 2.4%; 
   background: var(--dark-blue);
   padding-left: 4%;
@@ -399,7 +407,7 @@ p {
 
 .text-container5 {
   position: absolute; 
-  top: 45%;
+  top: 55%;
   left: 2.5%;
   background: var(--dark-blue);
   padding: 8px;
@@ -410,7 +418,7 @@ p {
 
 .text-container6 {
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 2.4%; 
   background: var(--dark-blue);
   padding-left: 4%;
