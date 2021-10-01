@@ -539,6 +539,10 @@ p {
       font-size: 1rem;
   }
 
+  .text-container6 {
+    top: 38%;
+  }
+
 }
 
 @media screen and (max-width: 576px) {
@@ -565,12 +569,17 @@ p {
   }
 
   h3 {
-      width: 75px;
+      /* width: 75px; */
       font-size: 1.25rem;
   }
 
-  img {
+  #work img {
       border: solid 5px #008891;
+  }
+
+  #card3 img {
+    margin-top: 4%;
+    margin-bottom: 4%;
   }
 
   .other-pictures-container, .other-pictures-text-container{
@@ -590,14 +599,18 @@ p {
   }
 
   .text-container1 {
-      top: 20%;
+      top: 10%;
       left: 4%;
   }
 
   .text-container6 {
-    top: 20%;
-    right: 4%;
+    top: 50%;
+    left: 4%;
 } 
+
+.text-container2, .text-container3, .text-container4, .text-container5 {
+  width: 75%;
+}
 
   .text-container2, .text-container5 {
       top: 10%;
@@ -605,7 +618,7 @@ p {
   }
 
   .text-container3, .text-container4 {
-    top: 72%;
+    top: 65%;
     right: 4%;
   }
 
